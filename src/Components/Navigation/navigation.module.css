@@ -1,0 +1,59 @@
+.navigation{
+    background: linear-gradient(0.25turn,#833ab4,#fd1d1d,#fcb045);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.activeLink{
+    width: 50%;
+    font-size: 40px;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    text-shadow: rgb(0, 0, 0) 1px 0 5px;
+    
+}
+
+.nonActiveLink{
+    width: 50%;
+    font-size: 40px;
+    font-weight: 700;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+}
+
+@media(max-width: 768px){
+    .navigation{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .activeLink{
+        font-size: 35px;
+    }
+    .nonActiveLink{
+        font-size: 35px;
+    }
+}
+
+@media(max-width: 540px){
+    .navigation{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .activeLink{
+        width: 100%;
+        font-size: 35px;
+    }
+    .nonActiveLink{
+        width: 100%;
+        font-size: 35px;
+    }
+}

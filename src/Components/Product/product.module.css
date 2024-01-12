@@ -1,0 +1,28 @@
+.product{
+    max-width: 250px;
+    max-height: 55vh;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.image{
+    width: 250px;
+    height: 250px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.id{
+    color: grey;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.price{
+    font-size: 20px;
+    font-weight: 900;
+}

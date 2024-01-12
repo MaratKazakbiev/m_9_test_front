@@ -1,0 +1,57 @@
+.dashboard{
+    background-color: rgb(255,255,255, 0.8);
+    width: 25%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input{
+    height: 5vh;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+    font-size: 20px;
+    border: 0px black solid;
+    box-shadow: 0 0 5pt 2pt #D3D3D3;
+}
+
+.textArea{
+    min-height: 7vh;
+    resize: none;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    border-radius: 8px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    border: 0px black solid;
+    box-shadow: 0 0 5pt 2pt #D3D3D3;
+
+}
+
+.button{
+    background-color: green;
+    color: white;
+    border-radius: 8px;
+    height: 5vh;
+    border: 0px solid;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 0 0 5pt 2pt #D3D3D3;
+}
+
+.photo{
+    margin: auto;
+    max-width: 45vh;
+    max-height: 45vh;
+    border-radius: 8px;
+}
